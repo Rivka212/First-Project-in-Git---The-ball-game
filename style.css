@@ -1,21 +1,22 @@
-body{
-background-color: black;
+body {
+    background-color: black;
 }
 
 
-h1{
+h1 {
     color: white;
 }
 
-.ball{
-width: 100px;
-height: 100px;
-background-color: rgb(49, 162, 203);
-border-radius: 50%;
-margin: auto;
-display: flex;
-align-items: center;
-justify-content: center;
-font-size: 22px;
-font-weight: bold;
+.ball {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(49, 162, 203);
+    border-radius: 50%;
+    margin: auto;
+    font-size: 22px;
+    font-weight: bold;
+    transition: 1s;
 }
